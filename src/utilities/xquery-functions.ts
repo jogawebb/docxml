@@ -110,4 +110,17 @@ fontoxpath.registerXQueryModule(`
 			if ($data('color')) then attribute ${QNS.w}color { $data('color') } else ()
 		} else ()
 	};
+
+	(:
+		Check that a given value is indeed not NaN.
+	:)
+	declare %public function docxml:valid-number($valueToTest) {
+		if (string(number($valueToTest)) = "NaN")
+		then (
+			fn:error((), "ERROR: The given value is NaN and cannot be used for this parameter.")
+		)
+		else (
+			$valueToTest
+		)
+	};
 `);

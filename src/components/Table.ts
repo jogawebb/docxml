@@ -57,7 +57,9 @@ export class Table extends Component<TableProps, TableChild> {
 					$tablePropertiesNode,
 					if (exists($columnWidths)) then element ${QNS.w}tblGrid {
 						for $columnWidth in array:flatten($columnWidths) return element ${QNS.w}gridCol {
-							attribute ${QNS.w}w { $columnWidth }
+							attribute ${QNS.w}w {
+								docxml:valid-number($columnWidth)
+							}
 						}
 					} else (),
 					$children
