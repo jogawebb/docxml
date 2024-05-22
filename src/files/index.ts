@@ -68,6 +68,7 @@ export function castRelationshipToClass(
 		case RelationshipType.classificationlabels:
 		case RelationshipType.downRev:
 		case RelationshipType.graphicFrameDoc:
+		case RelationshipType.glossary: 
 			return UnhandledXmlFile.fromArchive(archive, meta.target);
 
 		case RelationshipType.attachedTemplate:

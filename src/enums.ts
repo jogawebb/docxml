@@ -58,6 +58,7 @@ export enum RelationshipType {
 	fontTable = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable',
 	footer = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer',
 	footnotes = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes',
+	glossary = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/glossaryDocument',
 	header = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/header',
 	image = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/image',
 	numbering = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering',
@@ -69,7 +70,7 @@ export enum RelationshipType {
 	webSettings = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings',
 	hyperlink = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink',
 	attachedTemplate = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/attachedTemplate',
-	// For dotx created with office 2020	
+	// For dotx created with office 2020
 	classificationlabels = 'http://schemas.microsoft.com/office/2020/02/relationships/classificationlabels',
 	// Legacy template (.dot)
 	downRev = "http://schemas.microsoft.com/office/2006/relationships/downRev",
