@@ -31,8 +31,7 @@ export function castRelationshipToClass(
 		case RelationshipType.customProperties:
 			return CustomPropertiesXml.fromArchive(archive, meta.target);
 		case RelationshipType.coreProperties:
-			return CorePropertiesXml.fromArchive(archive, meta.target); 
-		case RelationshipType.corePropertiesLegacy:
+		case RelationshipType.corePropertiesAlternative:
 			return CorePropertiesXml.fromArchive(archive, meta.target);
 		case RelationshipType.endnotes:
 			return EndnotesXml.fromArchive(archive, meta.target);

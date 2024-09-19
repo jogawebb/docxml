@@ -49,7 +49,7 @@ export enum RelationshipType {
 	commentIds = 'http://schemas.microsoft.com/office/2016/09/relationships/commentsIds',
 	comments = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments',
 	commentsExtended = 'http://schemas.microsoft.com/office/2011/relationships/commentsExtended',
-	corePropertiesLegacy = 'http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties',
+	corePropertiesAlternative = 'http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties',
 	coreProperties = 'http://schemas.openxmlformats.org/officedocument/2006/relationships/metadata/core-properties',
 	customProperties = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/custom-properties',
 	customXml = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml',
